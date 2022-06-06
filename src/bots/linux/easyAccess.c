@@ -29,7 +29,12 @@
         }else if(strcmp(userinput,"packages")==0){
             printf("[bot]._.)=>all packages installed");
             system("sudo apt list –-installed");
-        }
+        	}else if(strcmp(userinput,"")==0){
+			printf("void not available n\n");
+		}else{
+	   	printf("\n[bot]??????\n\n\n[ERROR not available  %s ]\n\n\n",userinput);
+	   }
+		
 
 
     }

@@ -20,18 +20,27 @@
          system("clear");
          printf("[bot] ._.)=>Ok Bye (;-;) (press enter from close window)\n");
          break;
-		}else if(strcmp(userinput,"ip")==0){
+		}
+        //IP
+        else if(strcmp(userinput,"ip")==0){
             printf("[bot]._.)=> You IP");
         system("curl ipconfig.me");
-        }else if(strcmp(userinput,"manualBash")==0){
+        }
+        //Bash manual
+        else if(strcmp(userinput,"manualBash")==0){
             printf("[bot]._.)=>Bash Manual");
             system("man bash");
-        }else if(strcmp(userinput,"packages")==0){
+        }
+        // seeAll packages Ubuntu
+        else if(strcmp(userinput,"packages")==0){
             printf("[bot]._.)=>all packages installed");
             system("sudo apt list –-installed");
         	}else if(strcmp(userinput,"")==0){
 			printf("void not available n\n");
-		}else{
+		
+        }
+        //ERROR msg
+        else{
 	   	printf("\n[bot]??????\n\n\n[ERROR not available  %s ]\n\n\n",userinput);
 	   }
 		

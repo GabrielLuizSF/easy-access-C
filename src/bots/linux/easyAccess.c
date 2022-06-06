@@ -26,6 +26,9 @@
         }else if(strcmp(userinput,"manualBash")==0){
             printf("[bot]._.)=>Bash Manual");
             system("man bash");
+        }else if(strcmp(userinput,"packages")==0){
+            printf("[bot]._.)=>all packages installed");
+            system("sudo apt list –-installed");
         }
 
 

@@ -1,20 +1,15 @@
+#include <iostream>
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
 #include <time.h>
 
-//cores em ANSI utilizadas
-#define ANSI_COLOR_RESET   "\x1b[0m"
-#define ANSI_COLOR_RED     	"\x1b[31m"  
-#define ANSI_COLOR_GREEN	"\e[0;32m"
-#define ANSI_COLOR_CYAN     "\e[0;36m"
-#define ANSI_COLOR_PURPLE   "\e[1;35m"
-#define ANSI_COLOR_YELLOW   "\e[0;33m"
-#define ANSI_COLOR_BLUE     "\e[0;34m"
-#define VERSION   "[4.4]"
-    
-char style;
-char userinput[];
+#define VERSION   "[5.0]"
+
+#include "../library/styleLib.h"  // "" == local lib 
+using namespace stylelib;
+
+char userinput[200000000];
 
 
 int main(){
@@ -66,43 +61,43 @@ int main(){
 				printf(ANSI_COLOR_BLUE"===============================================================================\n");
            }
 	     	else if(strcmp(userinput,"styleRed")==0){
-             style = "red";
                   system("cls");
-             printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
+                  styleRed();
+             printf("[bot] ._.)=> Red Selected\n");
    
 			}
 			else if(strcmp(userinput,"styleCyan")==0){
-            style ="cyan";
                  system("cls");
+                    styleBlue();
             printf(ANSI_COLOR_CYAN"[bot] ._.)=> Cyan Selected\n");
 
 	      	}
 		    else if(strcmp(userinput,"stylePurple")==0){
-             style="purple";
                   system("cls");
+                     stylePurple();
              printf(ANSI_COLOR_PURPLE"[bot] ._.)=> Purple Selected\n");
 
 		     }
 		    else if(strcmp(userinput,"styleYellow")==0){
-             style="yellow";
                   system("cls");
+                     styleYellow();
              printf(ANSI_COLOR_YELLOW"[bot] ._.)=> Yellow Selected\n");
             }
 		    else if(strcmp(userinput,"styleBlue")==0){
-             style="blue";
                   system("cls");
+                     styleBlue();
              printf(ANSI_COLOR_BLUE"[bot] ._.)=> Blue Selected\n");
 			 }
 			
 		    else if(strcmp(userinput,"styleGreen")==0){
-             style="green";
                   system("cls");
+                     styleGreen();
              printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
 			}
 				
 		    else if(strcmp(userinput,"resetStyle")==0){
-             style="default";
                   system("cls");
+                         resetStyle();
 	    			printf(ANSI_COLOR_RESET"[bot] ._.)=> Default Color\n");
 		     }
      

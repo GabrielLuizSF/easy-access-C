@@ -79,3 +79,8 @@ Ensina como atualizar para a versao LTS e entra no local de download
 comando style foi atualizado para styles mostrando todas as novas cores adicionadas
 # github
 solucionado o bug de segurança do github
+
+# New Version 5.0 Codes
+
+#  localhost
+Abre o localhost na porta 8080

@@ -72,7 +72,7 @@ Deixa seu PC em modo de suspensão
 # Drivers
 Mostra todos os Drivers instalados no seu S.O até os do própio kernel
 
-# New Version 4.2 Codes 🤓
+# Version 4.2 Codes 🤓
 # update
 Ensina como atualizar para a versao LTS e entra no local de download
 # styles

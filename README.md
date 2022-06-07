@@ -72,7 +72,7 @@ Deixa seu PC em modo de suspensão
 # Drivers
 Mostra todos os Drivers instalados no seu S.O até os do própio kernel
 
-# Version 4.2 Codes 🤓
+# Version 4.2 Codes 
 # update
 Ensina como atualizar para a versao LTS e entra no local de download
 # styles
@@ -80,7 +80,7 @@ comando style foi atualizado para styles mostrando todas as novas cores adiciona
 # github
 solucionado o bug de segurança do github
 
-# New Version 5.0 Codes
+# New Version 5.0 Codes 🤓
 
 #  localhost
 Abre o localhost na porta 8080

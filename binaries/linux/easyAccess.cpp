@@ -4,9 +4,10 @@
 #include <time.h>
 
 
-#define ANSI_COLOR_RED     	"\x1b[31m" //cores em ANSI utilizadas 
-#define ANSI_COLOR_GREEN	"\e[0;32m"
-#define ANSI_COLOR_RESET   "\x1b[0m"
+#define VERSION   "[5.0]"
+
+#include "../library/styleLib.h"  // "" == local lib 
+using namespace stylelib;
     
 	char style;
 	char userinput[];

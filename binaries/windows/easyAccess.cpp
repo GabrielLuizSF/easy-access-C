@@ -3,14 +3,19 @@
 #include <conio.h>
 #include <string.h>
 #include <time.h>
+#include <stdlib.h>
 
-#define VERSION   "[5.0]"
-
+#define ISIZE   100      // arbitrarily large
+#include "../library/versionLib.h"  // "" == local lib 
 #include "../library/styleLib.h"  // "" == local lib 
+
 using namespace stylelib;
+using namespace versionlib;
 
-char userinput[200000000];
 
+double num1, num2;
+    int oper;
+    char userinput[ISIZE+1] = "";
 
 int main(){
 
@@ -32,7 +37,8 @@ int main(){
 		//VERSION
 		else if(strcmp(userinput,"version")==0){
 			     system("cls");
-			     printf("\n\nEASY ACCESS CONSOLE  PRO RELEASE\n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\nVERSION:"VERSION);
+			     printf("\n\nEASY ACCESS CONSOLE  PRO RELEASE\n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\n");
+			     version();
                    printf("\n\n===================================================================================\n");
                        printf(" Run 'manual' to see all available commands.\nMy Creator is  https://github.com/GabrielLuizSF\nOpen Source Repository:https://github.com/GabrielLuizSF/easy-access-C \n\n");
                              printf("===================================================================================\n");
@@ -227,9 +233,33 @@ int main(){
 		
 		// EasyAccess Calc Command
 		else if(strcmp(userinput,"calc")==0){
-         system("start Calculator");
-         system("cls");
-         printf("[bot] ._.)=>[bot]=>Calculator open\n");
+			system("cls");
+      	  printf("\tCalculadora\n\n");
+
+    printf("Introduza o primeiro numero: ");            // 1st operand
+    fgets (userinput, ISIZE, stdin);
+    num1 = atof (userinput);
+
+    printf("Introduza o segundo numero: ");             // 2nd operand
+    fgets (userinput, ISIZE, stdin);
+    num2 = atof (userinput);
+
+    printf("Escolha a operacao que quer realizar! ");   // operator
+    fgets (userinput, ISIZE, stdin);
+    oper = userinput[0];
+
+    printf ("O resultado e: %1.f %c %1.f = ", num1, oper, num2);
+
+    switch (oper) {
+        case '+': printf("%1.f\n", num1+num2); break;
+        case '-': printf("%1.f\n", num1-num2); break;
+        case '*': printf("%1.f\n", num1*num2); break;
+        case '/': if (num2!=0) printf("%1.f\n", num1/num2);
+                  else printf ("Divisão por zero!\n");
+                  break;
+        default:  printf("Eu nao sei o que operador\n");
+    }
+       
          
 		}
 		
@@ -272,8 +302,11 @@ int main(){
 	   }
 		
 	}
-
-return 0;
+	return 0;
 }
+
+
+
+
  
 

@@ -266,7 +266,7 @@ int main(){
                  printf("# time :\n\n => diz a hora\n\n\n# ip :\n\n=> revela todo o seu ip 'funciona igual o ipconfig /all do cmd so que neste terminal so precisa digitar ip'\n\n\n# poweroff :\n\n=> Desliga seu PC\n\n\n# Suspend :\n\n=>suspende o seu PC\n\n\n# Drivers :\n\n=>Mostra todos os Drivers\n\n\n# update :\n\n\n Leva ao repositorio no github para baixar a nova versao\n\n");
 				printf("===============================================================================\n\n\n");
 		}else if(strcmp(userinput,"")==0){
-			printf("void not available n\n");
+			printf("void not available \n");
 		}else{
 	   	printf("\n[bot]??????\n\n\n[ERROR not available  %s ]\n\n\n",userinput);
 	   }

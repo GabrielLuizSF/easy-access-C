@@ -81,7 +81,7 @@ comando style foi atualizado para styles mostrando todas as novas cores adiciona
 # github
 solucionado o bug de segurança do github
 
-# New Version 5.0 Codes 🤓
+# Version 5.0 Codes 🤓
 
 #  localhost
 Abre o localhost na porta 8080

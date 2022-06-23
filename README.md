@@ -1,9 +1,15 @@
 <div align="center">
+ 
+ 
 
-
+ 
 
 #  Getting Starded 🖖🏻
 
+ #### ChatBot created by Easy Access 🤖
+  
+  [<img src="https://avatars.githubusercontent.com/u/108021482?v=4" width="100px;"/><br /><sub><b>Cosm Documentation</b></sub>](https://github.com/SCOSM7/cosm)<br />
+ 
 [![Author](https://img.shields.io/badge/author-GabrielLuiz-191F2B?style=flat-square)](https://github.com/GabrielLuizSF)
 [![Languages](https://img.shields.io/github/languages/count/GabrielLuizSF/easy-access-C?color=%23191F2B&style=flat-square)](#)
 [![Stars](https://img.shields.io/github/stars/GabrielLuizSF/easy-access-C?color=191F2B&style=flat-square)](https://github.com/GabrielLuizSF/easy-access-c/stargazers)
@@ -95,16 +101,6 @@ Abre o localhost na porta 8080
   
   
 
-  
-  
-  <div align="center">
- 
-# ChatBot created by Easy Access 🤖
-  
-  [<img src="https://avatars.githubusercontent.com/u/108021482?v=4" width="100px;"/><br /><sub><b>Cosm Documentation</b></sub>](https://github.com/SCOSM7/cosm)<br />
- 
- 
- 
- </div>
+
   
   

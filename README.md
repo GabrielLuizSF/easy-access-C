@@ -92,3 +92,19 @@ Abre o localhost na porta 8080
   
   
   </div>
+  
+  
+
+  
+  
+  <div align="center">
+ 
+# ChatBot created by Easy Access 🤖
+  
+  [<img src="https://avatars.githubusercontent.com/u/108021482?v=4" width="100px;"/><br /><sub><b>Cosm Documentation</b></sub>](https://github.com/SCOSM7/cosm)<br />
+ 
+ 
+ 
+ </div>
+  
+  

@@ -1,4 +1,4 @@
-#include <iostream>
+2#include <iostream>
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
@@ -25,7 +25,7 @@ int main(){
 		 printf(" =>");
                   gets(userinput);
            
-           //Close Easy Access
+      //Close Easy Access
      if(strcmp(userinput,"exit")==0){
          system("cls");
          printf("[bot] ._.)=>Ok Bye (;-;) (press enter from close window)\n");
@@ -43,14 +43,14 @@ int main(){
 			
 		}  
 		
-		//HI
+      //Chat
       else if(strcmp(userinput,"hi")==0){
          system("cls");
          printf("[bot] ._.)=>Hello Master  \n");
        
 		}
       
-		//styles command
+		       //Styles Commands
 			else if(strcmp(userinput,"styles")==0){
 				     system("cls");
 				printf(ANSI_COLOR_BLUE"===============================================================================\n");
@@ -63,51 +63,49 @@ int main(){
 				printf(ANSI_COLOR_YELLOW"styleYellow=>  Letra Amarela\n\n");
 				printf(ANSI_COLOR_RESET"resetStyle=>  Letra Padrao\n\n\n");
 				printf(ANSI_COLOR_BLUE"===============================================================================\n");
-           }
-	    else if(strcmp(userinput,"styleRed")==0){
-              system("cls");
-              styleRed();
-               printf("[bot] ._.)=> Red Selected\n");
-   
-			}
-	else if(strcmp(userinput,"styleCyan")==0){
-                 system("cls");
-                 styleBlue();
-                 printf(ANSI_COLOR_CYAN"[bot] ._.)=> Cyan Selected\n");
-
-	      	}
-		    else if(strcmp(userinput,"stylePurple")==0){
-                     system("cls");
-                     stylePurple();
-                    printf(ANSI_COLOR_PURPLE"[bot] ._.)=> Purple Selected\n");
-
-		     }
-		    else if(strcmp(userinput,"styleYellow")==0){
-                  system("cls");
-                     styleYellow();
-                  printf(ANSI_COLOR_YELLOW"[bot] ._.)=> Yellow Selected\n");
-            }
-	else if(strcmp(userinput,"styleBlue")==0){
-                  system("cls");
-                     styleBlue();
-                  printf(ANSI_COLOR_BLUE"[bot] ._.)=> Blue Selected\n");
+                                }
+	                else if(strcmp(userinput,"styleRed")==0){
+                            system("cls");
+                            styleRed();
+                              printf("[bot] ._.)=> Red Selected\n");
+                               }
+	                else if(strcmp(userinput,"styleCyan")==0){
+                             system("cls");
+                              styleBlue();
+                                printf(ANSI_COLOR_CYAN"[bot] ._.)=> Cyan Selected\n");
+                                }
+		      else if(strcmp(userinput,"stylePurple")==0){
+                            system("cls");
+                            stylePurple();
+                              printf(ANSI_COLOR_PURPLE"[bot] ._.)=> Purple Selected\n");
+                               }
+		      else if(strcmp(userinput,"styleYellow")==0){
+                          system("cls");
+                           styleYellow();
+                             printf(ANSI_COLOR_YELLOW"[bot] ._.)=> Yellow Selected\n");
+                                 }
+	             else if(strcmp(userinput,"styleBlue")==0){
+                          system("cls");
+                           styleBlue();
+                             printf(ANSI_COLOR_BLUE"[bot] ._.)=> Blue Selected\n");
 			 }
 			
-	 else if(strcmp(userinput,"styleGreen")==0){
-                  system("cls");
-                     styleGreen();
-                      printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
+	             else if(strcmp(userinput,"styleGreen")==0){
+                            system("cls");
+                             styleGreen();
+                               printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
 			}
 				
-	     else if(strcmp(userinput,"resetStyle")==0){
-                  system("cls");
-                         resetStyle();
+	              else if(strcmp(userinput,"resetStyle")==0){
+                            system("cls");
+                              resetStyle();
 	    			printf(ANSI_COLOR_RESET"[bot] ._.)=> Default Color\n");
-		     }
+		                  
+                         }
      
      
 		
-	//Systems codes
+    //Systems Commands
     else if(strcmp(userinput,"note")==0){
          system("start notepad");
          system("cls");
@@ -127,7 +125,7 @@ int main(){
          
 		}
 	
-     //Websites commands
+     //Websites Commands
       else if(strcmp(userinput,"localhost")==0){
        	system("start http://localhost:8080/");
        	system("cls");
@@ -264,7 +262,7 @@ int main(){
 		}
 		
 		
-         // EasyAccess Clear Command
+         //  Clear Command
          else if(strcmp(userinput,"clear")==0){
          system("cls"); 
 		}

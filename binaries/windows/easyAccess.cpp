@@ -1,4 +1,4 @@
-2#include <iostream>
+#include <iostream>
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>

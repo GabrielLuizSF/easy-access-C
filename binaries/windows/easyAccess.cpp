@@ -105,7 +105,7 @@ int main(){
      
      
 		
-    //Systems Commands
+    //Software Commands
     else if(strcmp(userinput,"note")==0){
          system("start notepad");
          system("cls");
